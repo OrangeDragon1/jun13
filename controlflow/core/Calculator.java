@@ -29,6 +29,7 @@ public class Calculator {
             }
             scanner.nextLine();
         }
+        scanner.close();
         long roundedAvg = Math.round(avg);
         System.out.printf("SUM = %d AVG = %d.\n", sum, roundedAvg);
     }
